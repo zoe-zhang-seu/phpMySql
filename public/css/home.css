@@ -1,0 +1,39 @@
+/* public/css/home.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+    text-align: left;
+}
+
+.link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.welcome-message {
+    font-size: 2em; /* Larger font size */
+    font-weight: 500; /* Bold text */
+    color: grey; /* Darker grey color for better readability */
+    margin: 20px 0; /* Add margin around the message */
+}
